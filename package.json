@@ -1,0 +1,32 @@
+{
+  "name": "unicode-word-regex",
+  "version": "1.0.0",
+  "description": "A big regex to match unicode words",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/unicode-word-regex.git"
+  },
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "author": "Andre Staltz <contact@staltz.com>",
+  "license": "Unlicense",
+  "keywords": [
+    "unicode",
+    "regex"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.39",
+    "@unicode/unicode-13.0.0": "^1.2.1",
+    "regenerate": "^1.4.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.2.0"
+  },
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  }
+}
