@@ -1,6 +1,6 @@
 {
   "name": "unicode-word-regex",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A big regex to match unicode words",
   "repository": {
     "type": "git",
